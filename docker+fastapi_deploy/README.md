@@ -1,0 +1,1 @@
+Attempts at delpoying model with docker
