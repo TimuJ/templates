@@ -9,7 +9,7 @@ COPY requirements.txt /model/
 WORKDIR /model/
 
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r  requirements.txt
 
 # Expose the port uvicorn is running on
 EXPOSE 19
