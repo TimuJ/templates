@@ -38,4 +38,4 @@ def predict(text: Textclassifier):
 
 if __name__ == '__main__':
     # Run server using given host and port
-    uvicorn.run(app, host='127.0.0.1', port=19)
+    uvicorn.run(model, host='127.0.0.1', port=19)
